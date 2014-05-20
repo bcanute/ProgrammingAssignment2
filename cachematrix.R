@@ -58,3 +58,15 @@ cacheSolve <- function(y=matrix(), ...) {
   x$setmatrix(m)
   m
 }
+
+##Instructions to test the program.
+##However, you are warned against loading this code into your machine.
+##No liability is granted for any damage to your software.
+y<-matrix(1:4,2,2)
+y
+
+x<<-makeCacheMatrix()
+x
+
+new<-cacheSolve(y)
+new
